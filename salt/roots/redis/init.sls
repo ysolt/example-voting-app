@@ -4,7 +4,8 @@ redis-pkg:
     - pkg_verify: False
 
 redis-service:
-  service.enabled:
+  service.running:
     - name: redis
+    - enable: True
     - require:
       - pkg: redis-pkg 
