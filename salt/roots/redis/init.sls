@@ -1,3 +1,6 @@
+include:
+  - epel
+
 redis-pkg:
   pkg.installed:
     - name: redis
