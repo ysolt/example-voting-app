@@ -15,5 +15,5 @@ enabled=1
 enabled_metadata=1
 EOF
 yum install -y salt-minion
-salt-call state.highstate --local
+salt-call state.highstate --local -l debug
 #exit 1
