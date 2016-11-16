@@ -9,7 +9,7 @@ docker-repo:
 docker-pkg:
   pkg.installed:
     - pkgs:
-      - docker-engine: 1.12.3-1
+      - docker-engine: 1.12.3-1.el7.centos
       - python-docker-py
     - require:
       - pkgrepo: docker-repo
